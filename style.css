@@ -1,0 +1,23 @@
+body {
+    font-family: 'Yantramanav', sans-serif;
+    background-color: lavender;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 2px solid purple;
+    padding: 5px;
+    border-collapse: inherit;
+}
+
+.code {
+    font-family: monospace;
+    background-color: beige;
+}
