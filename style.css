@@ -1,6 +1,10 @@
 body {
     font-family: 'Yantramanav', sans-serif;
-    background-color: lavender;
+    background: #6F78FF;
+    background: -moz-linear-gradient(left, #6F78FF 0%, #E062FF 100%);
+    background: -webkit-linear-gradient(left, #6F78FF 0%, #E062FF 100%);
+    background: linear-gradient(to right, #6F78FF 0%, #E062FF 100%);
+    text-align: center;
 }
 
 h1 {
@@ -9,15 +13,16 @@ h1 {
 
 table {
     border-collapse: collapse;
+    margin: 0 auto;
 }
 
 th, td{
-    border: 2px solid purple;
+    border: 2px solid black;
     padding: 5px;
     border-collapse: inherit;
 }
 
 .code {
     font-family: monospace;
-    background-color: beige;
+    background-color: palegoldenrod;
 }
